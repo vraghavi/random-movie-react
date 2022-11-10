@@ -6,14 +6,6 @@ import MovieCard from './MovieCard';
 
 const API_URL = 'http://www.omdbapi.com?apikey=85b79cdf';
 
-const movie1 = {
-    "Title": "Wonder Woman",
-    "Year": "2009",
-    "imdbID": "tt1186373",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNzU1NmNmNTgtMTUyYS00ZmRmLTkzOWItOTY2ZWZiYjVkYzkzXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg"
-}
-
 const App = () => {
 
     const [movies, setMovies] = useState([]);
